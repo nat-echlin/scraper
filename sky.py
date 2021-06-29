@@ -4,7 +4,6 @@ import requests, re
 from requests.api import head
 from bbc import Article
 
-
 _source = requests.get("https://news.sky.com/technology").text
 soup = BeautifulSoup(_source, 'lxml')
 stories = []
@@ -22,19 +21,21 @@ def getSkyOthers():
 
     # urls = [story["href"] for story in othersSoup]
 
-
+    noVideosList = []
     for index, storySoup in enumerate(othersSoup):
-        if re.search("video", storySoup["href"]):
-            othersSoup.pop(index)
+        if not re.search("video", storySoup["href"]):
+            noVideosList.append(othersSoup[index])
+        else:
+            # if video, do nothing (ie dont add to new list)
+            pass
 
-
-    for x in othersSoup:
-        print(x["href"])
-        pass    
-
+    for story in noVideosList:
+        title, _url = story.text, story["href"]
+        link = f"https://news.sky.com{_url}"
+        stories.append(
+            Article(title, link)
+        )
 
 getSkyOthers()
-
-# headline class: sdc-site-tile__headline-link
-# elon sdc-site-tile__headline-link
-# mask sdc-site-tile__headline-link
+for x in stories:
+    print(x.title)
