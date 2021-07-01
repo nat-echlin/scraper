@@ -1,11 +1,10 @@
 from bs4 import BeautifulSoup
 import requests, re
 
-_source = requests.get("https://www.theregister.com").content
-soup = BeautifulSoup(_source, 'lxml')
+_source = requests.get("").content
+soup = BeautifulSoup(_source, features="xml")
 
-# scienceSoup = soup.find('div', attrs={"class":"article_text_elements"})
-# print(scienceSoup)
+print(_source)
 
-articleSoup = soup.find_all("article")
-print(len(articleSoup))
+
+# needs serious work here. xml feed seems to not work, error 403 : robot detected.
