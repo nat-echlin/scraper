@@ -39,3 +39,5 @@ if __name__ == "__main__":
 
     toFollow = getFollowInput(len(stories))
     print(stories[toFollow - 1].link)
+
+# change
