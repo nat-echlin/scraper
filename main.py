@@ -58,14 +58,25 @@ if __name__ == "__main__":
         else:
             printTitles()
             def getFollowInput(maxStory):    
-                storyToFollowRaw = input("Please enter the number of the story you would like to follow up on!")
-                if re.search('[a-zA-Z]', storyToFollowRaw) or int(storyToFollowRaw) < 1 or int(storyToFollowRaw) > maxStory:
-                    print(f"Please ONLY enter a number between 1 and {maxStory}")
-                    return int(getFollowInput(maxStory))
-                else:
-                    return int(storyToFollowRaw)
+                storyToFollowRaw = input("Please enter the numbers of the stories you would like to follow up on! Enter multiples with spaces inbetween, like so: '2 5 12 3'")
+                follows = storyToFollowRaw.split(" ")
+                isValid = True
+                for input in follows:
+                     # work here
+                    if re.search('[a-zA-Z]', storyToFollowRaw):
+                        print(f"Please ONLY enter a number between 1 and {maxStory}")
+                        return int(getFollowInput(maxStory))        # this reruns the fn, taking user back to input phase
+                    else:
+                        return int(storyToFollowRaw)     
 
-            toFollow = getFollowInput(len(stories))
+                # # work here
+                # if re.search('[a-zA-Z]', storyToFollowRaw):
+                #     print(f"Please ONLY enter a number between 1 and {maxStory}")
+                #     return int(getFollowInput(maxStory))
+                # else:
+                #     return storyToFollowRaw     # this reruns the fn, taking user back to input phase
+
+            toFollow = getFollowInput(maxStory=len(stories))
             print(stories[toFollow - 1].link)
 
 
@@ -79,6 +90,7 @@ if __name__ == "__main__":
     
     def getMode():
         mode = input("Select mode: \n1. Only show stories that have been published since last run (and are on the front page currently)\n2. Show all stories currently on the front page\n")
+        print("\n")      # all this does is make it look nicer in terminal
         if re.search('[a-zA-Z]', mode):
             print(f"Please ONLY enter '1' or '2'")
             return int(getMode())
