@@ -22,27 +22,34 @@ Aspirin could cut risk of death in cancer patients by 20%, study suggests
 Design student creates device that rapidly stops bleeding from stab wounds
 People are dying amid a heatwave in parts of the US and Canada - but how does heat kill?
 Trump sues Twitter, Google and Facebook
-Is TikTok the future of busking?
-Young game designers take on real-world issues
 China's 'midnight patrol' to check age of gamers
 Is the use of jetpacks finally about to take off?
-Pentagon cancels $10bn 'Jedi' contract
-Right-to-repair movement gains ground
-'Giving my sister a voice'
-Russia hacking claims pose challenge for Biden
-Can the world's biggest polluters change their ways?
-The cat with more than 50,000 social followers
 What these new codes in supermarkets will mean
-Samsung forecasts 53% jump in quarterly profit
-How to get a lucrative job in cybersecurity
-Audio editor Audacity denies spyware accusation
-‘There were no avatars like me so we made a game’
-Microsoft fixes critical PrintNightmare bug
-Nintendo Switch gets an upgrade with better screen
-BA settles claim by thousands hit by data breach
 Hong Kong brushes off Big Tech privacy law concern
+Nintendo Switch gets an upgrade with better screen
+Pentagon cancels $10bn 'Jedi' contract
+Russia hacking claims pose challenge for Biden
+Young game designers take on real-world issues
 What next for the NHS Covid-19 contact tracing app?
 Why are Chinese tech brands flocking to Euro 2020?
+‘There were no avatars like me so we made a game’
+BA settles claim by thousands hit by data breach
+'Giving my sister a voice'
+Right-to-repair movement gains ground
+Is TikTok the future of busking?
+Samsung forecasts 53% jump in quarterly profit
+Audio editor Audacity denies spyware accusation
+How to get a lucrative job in cybersecurity
+Microsoft fixes critical PrintNightmare bug
+Can the world's biggest polluters change their ways?
+The cat with more than 50,000 social followers
+Prime Minister says national security advisor will probe Chinese acquisition of UK's top chip maker
+Amazon Lumberyard is dead, long live the permissively licensed Open 3D Engine
+Florida Man sues Facebook, Twitter, YouTube for account ban
+Microsoft defends intrusive dialog in Visual Studio Code that asks if you really trust the code you've been working on
+Microsoft struggles to wake from its PrintNightmare: Latest print spooler patch can be bypassed, researchers say
+NASA readies commands to switch on Hubble's back-up hardware
+Oi! Our British Airways data breach compo sueball is still going, shouts rival law firm
 After 15 years and $500m, the US Navy decides it doesn't need shipboard railguns after all
 Report shines light on REvil's depressingly simple tactics: Phishing, credential-stuffing RDP servers... the usual
 Boffins say they've improved on algorithm for dynamic load balancing of server workloads
@@ -86,10 +93,3 @@ Disco classic <i>Rasputin</i> and pop anthem revealed as reasons Twitter suspend
 DARPA nails cash to project 'FENCE' — a smart camera that only sends pics when pixels change
 Kaseya says it's seen no sign of supply chain attack, sets SaaS restoration target of Tuesday afternoon, on-prem fix to follow
 Big Tech’s Asian lobby warns Hong Kong its anti-doxxing laws could see its members leave town
-The cost of cyber insurance increased 32 per cent last year and shows no signs of easing
-Sing a song of Office, a pocketful of why: ARM64 version running in a Pi
-The wheels come off Formula 1's notification service as fans plied with attacker's messages
-Arm chief hits out at 'ill-informed speculation' over proposed Nvidia buyout
-Latest patches show Rust for Linux project making great strides towards the kernel
-Things that needn't be said: Don't plonk a massive Starlink dish on the hood of your car
-Taikonauts complete seven-hour spacewalk, the first for China since 2008

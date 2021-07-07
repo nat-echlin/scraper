@@ -53,32 +53,37 @@ if __name__ == "__main__":
     def showStories(onlyNew=False):
         getStories(onlyNew)
         if len(stories) == 0 and onlyNew == True:
-            print("\nThere are no new stories! Come back soon! :)         ( or im broken )")
+            print("\nThere are no new stories! Come back soon! :)         (or I'm broken)\n\n")
         
         else:
             printTitles()
             def getFollowInput(maxStory):    
-                storyToFollowRaw = input("Please enter the numbers of the stories you would like to follow up on! Enter multiples with spaces inbetween, like so: '2 5 12 3'")
-                follows = storyToFollowRaw.split(" ")
+                storiesToFollowRaw = input("Please enter the numbers of the stories you would like to follow up on! Enter multiples with spaces inbetween, like so: '2 5 12 3'\n")
+                # print("\n")
+                follows = storiesToFollowRaw.split(" ")
                 isValid = True
-                for input in follows:
-                     # work here
-                    if re.search('[a-zA-Z]', storyToFollowRaw):
-                        print(f"Please ONLY enter a number between 1 and {maxStory}")
-                        return int(getFollowInput(maxStory))        # this reruns the fn, taking user back to input phase
-                    else:
-                        return int(storyToFollowRaw)     
+                for inputted in follows:
+                    # work here
+                    if re.search('[a-zA-Z]', inputted) or int(inputted) > maxStory:
+                        isValid = False
+                        break
 
-                # # work here
+                if not isValid:
+                    print(f"Please ONLY enter NUMBERS (as numerals eg 1 8 19) between 1 and {maxStory}")
+                    return getFollowInput(maxStory)        # this reruns the fn, taking user back to input phase
+
+                else:
+                    return follows     
+
                 # if re.search('[a-zA-Z]', storyToFollowRaw):
                 #     print(f"Please ONLY enter a number between 1 and {maxStory}")
                 #     return int(getFollowInput(maxStory))
                 # else:
                 #     return storyToFollowRaw     # this reruns the fn, taking user back to input phase
 
-            toFollow = getFollowInput(maxStory=len(stories))
-            print(stories[toFollow - 1].link)
-
+            toFollow : list = getFollowInput(maxStory=len(stories))
+            for index, story in enumerate(toFollow):
+                print(f"{stories[int(story) - 1].title}     {stories[int(story) - 1].link} ")
 
         # this writes all stories currently on the sites to the previosstories txt
 
