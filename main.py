@@ -9,17 +9,17 @@ from register import getRegister
 
 stories = []
 
-def getAll(arr):
-        arr.append(getSkyHeadline())
+def getAll(list):
+        list.append(getSkyHeadline())
         for story in getSkyOthers():
-            arr.append(story)
+            list.append(story)
 
-        arr.append(getBbcHeadline())   
+        list.append(getBbcHeadline())   
         for story in getBbcOthers():
-            arr.append(story)
+            list.append(story)
 
         for story in getRegister():
-            arr.append(story)
+            list.append(story)
 
 def getStories(onlyNew=False):
     if onlyNew == False:    # ie: get all stories
@@ -85,7 +85,7 @@ if __name__ == "__main__":
             for index, story in enumerate(toFollow):
                 print(f"{stories[int(story) - 1].title}     {stories[int(story) - 1].link} ")
 
-        # this writes all stories currently on the sites to the previosstories txt
+        # this writes all stories currently on the sites to the previousStories.txt 
 
         with open('previousStories.txt', 'w') as prevStoriestxt:
             currentStories = []
@@ -118,6 +118,5 @@ if __name__ == "__main__":
 
 # bug : bbc module adding a story as headline and normal story
 
-# to-do: remove main.py global var stories, change so that getStories() returns the list of stories instead of adding to global var 
 
 
