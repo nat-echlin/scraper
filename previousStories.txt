@@ -4,7 +4,7 @@ Commandos seek 'battlefield advantage' as they train with drone swarms in UK fir
 US wants to build spy base in UK to help keep satellites safe
 No plans to change sensitivity of COVID app after half a million people pinged in a week
 Cosmic fireworks: New images reveal details of our galactic neighbours
-'Dramatic' Perseids meteor shower starts tonight - here's how to watch in the UK
+'Dramatic' Perseids meteor shower begins - here's how to watch in the UK
 Why is it so difficult to stop abuse on social media?
 Bezos, Branson, and Musk: What you need to know about the billionaire space race
 Pregnant man and multiracial handshake among new emojis being introduced this year
@@ -22,28 +22,29 @@ Consoles are better than gaming PCs, says EA for FIFA 22
 Elon Musk says he 'rather hates' being CEO of Tesla
 'Miserable' winter of illnesses could be ahead of us, but why?
 Google fined £427m in fight with French news publishers
-AI narration of chef Bourdain's voice sparks row
-Quickfire questions for Google boss
-Tech Tent: Can social media stop abuse?
-Click News: Robot helps people get dressed
-How your data is being scraped from social media
-NHS Covid app: Should it stay or should it go?
-MPs call for complete reset of music streaming
-Duran Duran’s Invisible: 'Thrilled' with AI's work
-How your driving may reveal early signs of Alzheimer's
-Finding 'Grace': Murder, DNA and ancestry
-How did my phone number end up for sale?
-Voice cloning of growing interest to actors and cybercriminals
-How MetaHuman Creator helped me create ‘Dana’
-Valve reveals handheld Steam Deck PC games console
-Microsoft announces subscription cloud PC service
-Instagram admits mistake over racist comments
-Quadriplegic driver makes Festival of Speed debut
+Why was my tweet about football labelled abusive?
 Should we trust big tech with our health data?
-Cambridge data shows Bitcoin mining on the move
-Plans submitted for electric battery 'gigafactory'
+Instagram admits mistake over racist comments
+How MetaHuman Creator helped me create ‘Dana’
+Duran Duran’s Invisible: 'Thrilled' with AI's work
+AI narration of chef Bourdain's voice sparks row
+Tech Tent: Can social media stop abuse?
 Clippy returns - as an emoji
+Finding 'Grace': Murder, DNA and ancestry
+How your data is being scraped from social media
+Click News: Robot helps people get dressed
+Quadriplegic driver makes Festival of Speed debut
+Quickfire questions for Google boss
+How your driving may reveal early signs of Alzheimer's
+NHS Covid app: Should it stay or should it go?
+Voice cloning of growing interest to actors and cybercriminals
+Cambridge data shows Bitcoin mining on the move
 WhatsApp to let users message without their phones
+How did my phone number end up for sale?
+Plans submitted for electric battery 'gigafactory'
+Valve reveals handheld Steam Deck PC games console
+MPs call for complete reset of music streaming
+OpenAI shuts down robotics team because it doesn't have enough data yet
 NASA fixes Hubble Space Telescope using backup power supply unit, payload computer
 Windows 10 to hang on for five more years with 21H2 update
 Refreshing: An Office update that won't frighten the horses
@@ -93,4 +94,3 @@ Microsoft extends security updates for Windows and SQL Server 2012 and 2008
 SonicWall suggests people unplug their end-of-life gateways under 'active attack' by ransomware crims
 India bans Mastercard from signing up new customers
 So nice of China to put all of its network zero-day vulns in one giant database no one will think to break into
-The coming of Wi-Fi 6 does not mean it's time to ditch your cabled LAN. Here's why
